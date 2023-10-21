@@ -1,0 +1,61 @@
+h2 { 
+    /* chooses font and color for all of our heading 2's in our website.*/
+    font-family: fantasy;
+    color:aqua;
+    font-weight: 1;
+    background-color: black;
+    width: fit-content;
+}
+
+h6{
+    background-color: black;
+    color: aqua;
+    width: fit-content;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+/* the "#otherh2" is an id of another h2.*/
+#otherh2{
+    font-weight: 1;
+    font-size:xx-large;
+    color:blue;
+    background-color: black;
+    width: fit-content;
+}
+
+#here{
+    text-decoration: underline;
+    color:aliceblue;
+    font-weight: 1;
+    font-style: italic;
+    background-color: black;
+    width: fit-content;
+    font-family: cursive;
+    padding:20px;
+    margin:20px;
+}
+
+#thisList{
+    font-weight: 50;
+    font-style:unset;
+    text-decoration: line-through;
+    color:cornflowerblue;
+    background-color: black;
+    width: fit-content;
+}
+
+body{
+    background-color: steelblue;
+    background-image: url("https://gamepress.gg/grandorder/sites/grandorder/files/2021-05/1372_Gogh%27s%20%28Attempted%29%20Chocolate%20Marinade.png");
+}
